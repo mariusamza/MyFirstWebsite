@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteRule ^([0-9]+)$ /index.php?id=$1 
+RewriteRule ^news/([0-9]+)$ /news.php?id=$1 

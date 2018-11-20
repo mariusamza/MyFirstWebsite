@@ -2,7 +2,7 @@
 <div id="site_content">
     <?php include('sidebar.php'); ?>
     <div id="content">
-        <?
+        <?php
         
         if(isset($_GET['news'])){
 
